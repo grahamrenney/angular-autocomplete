@@ -36,7 +36,7 @@ angular.module('angucomplete', [] )
             $scope.searching = false;
             $scope.pause = 500;
             $scope.minLength = 3;
-            $scope.searchStr = null;
+            $scope.searchStr = ($scope.selectedObject && $scope.titleField) ?  $scope.selectedObject[$scope.titleField] : null;
 
             if ($scope.minLengthUser && $scope.minLengthUser != "") {
                 $scope.minLength = $scope.minLengthUser;
@@ -189,7 +189,7 @@ angular.module('angucomplete', [] )
                     result.title = result.title.toString().replace(/(<([^>]+)>)/ig, '');
                 }
                 $scope.searchStr = $scope.lastSearchTerm = result.title;
-                $scope.selectedObject = result;
+                $scope.selectedObject = result.originalObject;
                 $scope.showDropdown = false;
                 $scope.results = [];
                 //$scope.$apply();

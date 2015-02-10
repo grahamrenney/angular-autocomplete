@@ -1,11 +1,11 @@
 {
-  "name": "angucomplete",
+  "name": "angular-autocomplete",
   "version": "1.0.0",
-  "homepage": "http://darylrowland.github.io/angucomplete/",
+  "homepage": "https://github.com/grahamrenney/angular-autocomplete",
   "authors": [
-    "Daryl Rowland <daryl@cloudyclear.com>"
+    "Graham Renney <grahamrenney+github@gmail.com>"
   ],
-  "description": "Awesome Autocompleteness for AngularJS",
+  "description": "Autocomplete for AngularJS",
   "keywords": [
     "autocomplete",
     "typeahead",

@@ -1,11 +1,11 @@
 {
   "authors": [
-    "Daryl Rowland <daryl@cloudyclear.com>"
+    "Graham Renney <grahamrenney+github@gmail.com>"
   ],
-  "name": "angucomplete",
-  "description": "Awesome Autocompleteness for AngularJS",
+  "name": "angular-autocomplete",
+  "description": "Autocomplete for AngularJS",
   "version": "1.0.0",
-  "homepage": "http://darylrowland.github.io/angucomplete/",
+  "homepage": "https://github.com/grahamrenney/angular-autocomplete",
   "engines": {
     "node": ">= 0.8.4"
   },
