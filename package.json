@@ -4,7 +4,7 @@
   ],
   "name": "angular-autocomplete",
   "description": "Autocomplete for AngularJS",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/grahamrenney/angular-autocomplete",
   "engines": {
     "node": ">= 0.8.4"
